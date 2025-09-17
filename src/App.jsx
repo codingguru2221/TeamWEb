@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Intro from "./pages/Intro";
 import EventPage from "./pages/Event";
+import TeamMember from "./pages/TeamMember";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/intro" element={<Intro />} />
           <Route path="/event" element={<EventPage />} />
+          <Route path="/team/:name" element={<TeamMember />} />
         </Routes>
       </div>
     </Router>

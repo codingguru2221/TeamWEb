@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const events = [
+  // Upcoming events
   {
     date: "Oct 2025",
     title: "Hack the Future",
@@ -14,6 +15,26 @@ const events = [
     desc: "A night of cybersecurity challenges and workshops.",
     type: "upcoming"
   },
+  // Past hackathons
+  {
+    date: "Apr 2025",
+    title: "Navonmesh",
+    desc: "A national-level hackathon fostering innovation and collaboration.",
+    type: "past"
+  },
+  {
+    date: "Feb 2025",
+    title: "HackPrix",
+    desc: "A 24-hour coding marathon for creative problem solvers.",
+    type: "past"
+  },
+  {
+    date: "Jan 2025",
+    title: "RNTU TechFest",
+    desc: "Annual tech festival with diverse hackathon challenges.",
+    type: "past"
+  },
+  // Other past events
   {
     date: "Aug 2025",
     title: "AlgoMania",
