@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const events = [
@@ -34,7 +35,10 @@ const Events = () => (
         </div>
       ))}
     </div>
+    
   </section>
 );
+
+ 
 
 export default Events;
