@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Navbar = () => (
-  <nav className="fixed top-0 left-0 w-full bg-gray-900 bg-opacity-90 shadow-lg z-50">
+  <nav className="fixed top-0 left-0 w-full bg-gray-900 bg-opacity-90 z-50 border-none outline-none">
     <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
       <div className="text-2xl font-bold text-cyan-400 tracking-widest">TheCodex</div>
       <ul className="flex space-x-8 text-lg font-medium items-center">

@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Hero = () => (
   <section className="min-h-[70vh] flex flex-col justify-center items-center bg-gradient-to-br from-gray-900 via-black to-gray-800 text-center pt-24 w-full px-0">
@@ -10,11 +11,11 @@ const Hero = () => (
       Join our journey to create, disrupt, and lead in the world of tech.
     </p>
     <StyledWrapper>
-      <a href="#events" style={{ textDecoration: 'none' }}>
+      <Link to="/event" style={{ textDecoration: 'none' }}>
         <button>
           <span>Explore Events</span>
         </button>
-      </a>
+      </Link>
     </StyledWrapper>
   </section>
 );
